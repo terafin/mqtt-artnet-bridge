@@ -1,0 +1,22 @@
+{
+    "name": "mqtt-artnet-bridge",
+    "version": "0.0.1",
+    "description": "MQTT Artnet Bridge",
+    "license": "MIT",
+    "main": "mqtt-artnet-bridge.js",
+    "repository": {
+        "url": "https://github.com/terafin/mqtt-artnet-bridge.js"
+    },
+    "scripts": {
+        "start": "node mqtt-artnet-bridge.js"
+    },
+    "dependencies": {
+        "homeautomation-js-lib": "https://github.com/terafin/homeautomation-js-lib.git",
+        "lodash": "^4.17.20",
+        "artnet": "latest",
+        "mqtt": "latest"
+    },
+    "engines": {
+        "node": ">=4"
+    }
+}
